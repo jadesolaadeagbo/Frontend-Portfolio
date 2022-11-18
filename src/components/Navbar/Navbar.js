@@ -10,10 +10,10 @@ const Navbar = () => {
 
       <div className='container'>
         <ul className='nav'>
-            <li>Home</li>
-            <li className ="team">Teams <i class="fa fa-caret-down "></i></li>
-            <li>FAQs</li>
-            <li>About HNG</li>
+            <li> <a href="#" style={{color:'red'}}>Home</a> </li>
+            <li className ="team"> <a href="#"> Teams </a><i class="fa fa-caret-down "></i></li>
+            <li> <a href="#">FAQs </a> </li>
+            <li> <a href="#">About HNG</a> </li>
         </ul>
 
         <div className="search-div">
