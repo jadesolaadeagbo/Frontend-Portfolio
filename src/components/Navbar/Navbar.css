@@ -75,6 +75,9 @@ input[type='text']{
 }
 
 @media(max-width: 375px){
+    .navbar{
+        padding: 24px 0px 42px 0px;
+    }
     .container{
         flex-direction: column;
     }
