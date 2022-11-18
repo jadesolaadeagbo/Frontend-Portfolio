@@ -6,12 +6,12 @@ import searchNormal from "../../assets/searchNormal.svg"
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <img src={Logo} alt="" />
+      <img src={Logo} className="logo" alt="" />
 
       <div className='container'>
         <ul className='nav'>
             <li>Home</li>
-            <li>Teams <i class="fa fa-caret-down "></i></li>
+            <li className ="team">Teams <i class="fa fa-caret-down "></i></li>
             <li>FAQs</li>
             <li>About HNG</li>
         </ul>
