@@ -7,12 +7,12 @@ const Card = (props) => {
     <div className="total-container">
         <div className='card-container'>
             <p id='title'>Project Name: {props.title}</p>
-            <p>Project Brief:</p>
-            <p>{props.body}</p>
+            <p id= "sub-title">Project Brief:</p>
+            <p id="body">{props.body}</p>
 
             <button>Team Chisel</button>
 
-            <p>Team Lead: {props.lead}</p>
+            <p id="lead">Team Lead: {props.lead}</p>
         </div>
     </div>
     

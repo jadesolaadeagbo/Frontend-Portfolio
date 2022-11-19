@@ -48,7 +48,12 @@ const App = () => {
         </ul>
       </div>
 
-      <Card></Card>
+      <Card title=" Coverletter Generator"
+            body="Cover Letter Generator. It takes your CV, a few bullet points, name of the company, and it generates cover letter for you using AI. A mobile app and a website. Uses GPT-3"
+            lead = "Hoo-uhI"
+      
+      
+      />
       
       </div>
 

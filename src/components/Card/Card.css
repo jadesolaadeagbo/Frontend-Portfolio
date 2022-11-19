@@ -1,7 +1,39 @@
 .total-container{
     width: 45%;
+    background: #E6E6E6;
+    border-radius: 5px;
+}
+
+.card-container{
+    width: 90%;
+    margin: auto;
 }
 
 p#title{
     line-height: 40px;
+    font-size: 24px;
+}
+p#sub-title{
+    font-size: 24px;
+}
+
+p#body{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 42px;
+
+}
+
+button{
+    padding: 0px 10px;
+    border: 1px solid #1E2532;
+    font-size: 24px;
+    float: right;
+}
+
+#lead{
+    font-size: 24px;
+    line-height: 40px;
+    padding: 40px 0px 21px 0px;
 }
