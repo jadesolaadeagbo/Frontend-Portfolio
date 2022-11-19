@@ -2,6 +2,8 @@ import React from 'react'
 import "./App.css"
 import Navbar from "./components/Navbar/Navbar"
 import Statistics from './components/Statistics/Statistics'
+import Polls from './components/Polls/Polls'
+import Card from './components/Card/Card'
 
 const App = () => {
   return (
@@ -23,7 +25,6 @@ const App = () => {
           <li> <a href="#">Team</a></li>
           <i class="fa fa-angle-right fa-2x"></i>
           <li> <a href="#" style={{color: 'black'}}>Project</a></li>
-
         </ul> 
 
         <form className='sort'>
@@ -35,6 +36,19 @@ const App = () => {
         </form>
 
         </div>
+
+        <div className="user-ratings">
+          <Statistics/>
+          <Polls></Polls>
+        </div>
+        
+        <div className="heading">
+        <ul className='menu-options'>
+          <li><a href="#" style={{color: 'black'}}>Projects</a></li>
+        </ul>
+      </div>
+
+      <Card></Card>
       
       </div>
 

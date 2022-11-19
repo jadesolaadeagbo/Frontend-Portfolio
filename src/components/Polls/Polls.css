@@ -1,0 +1,26 @@
+.poll-container{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .poll-container{
+        width: 50%;
+    }
+}
+
+@media(max-width: 375px){
+    .poll-container{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

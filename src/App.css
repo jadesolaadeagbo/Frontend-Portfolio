@@ -68,11 +68,28 @@
     gap: 17px;
 }
 
+.user-ratings{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    background-color: #EFF2F9;
+    margin-top: 70px; 
+}
+
+
 @media (max-width: 768px){}
 
 @media(max-width: 375px){
     .navigation-direction{
         flex-direction: column;
         gap: 20px;
+    }
+
+    .user-ratings{
+        flex-direction: column;
     }
 }

@@ -1,0 +1,21 @@
+.rating-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media(max-width: 768px){
+    .rating-container{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media(max-width: 375px){
+    .rating-container{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    
+}
