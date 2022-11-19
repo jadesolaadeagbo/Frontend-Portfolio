@@ -10,7 +10,7 @@ const Card = (props) => {
             <p id= "sub-title">Project Brief:</p>
             <p id="body">{props.body}</p>
 
-            <button>Team Chisel</button>
+            <button>{props.value}</button>
 
             <p id="lead">Team Lead: {props.lead}</p>
         </div>

@@ -3,7 +3,7 @@ import "./App.css"
 import Navbar from "./components/Navbar/Navbar"
 import Statistics from './components/Statistics/Statistics'
 import Polls from './components/Polls/Polls'
-import Card from './components/Card/Card'
+import CardContainer from './components/CardContainer/CardContainer'
 
 const App = () => {
   return (
@@ -44,16 +44,11 @@ const App = () => {
         
         <div className="heading">
         <ul className='menu-options'>
-          <li><a href="#" style={{color: 'black'}}>Projects</a></li>
+          <li><a href="#" style={{color: 'black', fontWeight:'500'}}>Projects</a></li>
         </ul>
       </div>
 
-      <Card title=" Coverletter Generator"
-            body="Cover Letter Generator. It takes your CV, a few bullet points, name of the company, and it generates cover letter for you using AI. A mobile app and a website. Uses GPT-3"
-            lead = "Hoo-uhI"
-      
-      
-      />
+      <CardContainer/>
       
       </div>
 
