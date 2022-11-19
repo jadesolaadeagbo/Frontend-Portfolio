@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import PropTypes from 'prop-types'
+import PropType from 'prop-types'
 import "./StatisticsChart.css"
 
 
@@ -16,3 +16,11 @@ const StatisticsChart = (props) => {
 }
 
 export default StatisticsChart
+
+//Prop type checking
+StatisticsChart.propTypes ={
+  image : PropType.any.isRequired,
+  percentage : PropType.string,
+  status : PropType.string,
+
+}

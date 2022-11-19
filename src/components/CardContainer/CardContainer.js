@@ -12,8 +12,8 @@ const CardContainer = () => {
             lead = "Joo-uhl" 
             
       />
-             <Card title=" Coverletter Generator"
-            body="Cover Letter Generator. It takes your CV, a few bullet points, name of the company, and it generates cover letter for you using AI. A mobile app and a website. Uses GPT-3"
+             <Card title=" Picture Miner"
+            body="A clone of https://avatarai.me/. You upload 10 photos of you, and it generates photos of you in all types of scenes and with all types of bodies."
             value ="Team Scale"
             lead = "Zana" 
             

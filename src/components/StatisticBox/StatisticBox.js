@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import PropTypes from 'prop-types'
+import PropType from 'prop-types'
 import "./StatisticBox.css"
 
 const StatisticBox = (props) => {
@@ -14,3 +14,9 @@ const StatisticBox = (props) => {
 }
 
 export default StatisticBox
+
+//Prop type checking
+StatisticBox.propTypes ={
+  rating : PropType.string,
+  status: PropType.string,
+}

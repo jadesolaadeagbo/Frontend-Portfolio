@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import PropType from 'prop-types'
 import "./Card.css"
 
 const Card = (props) => {
@@ -19,4 +19,14 @@ const Card = (props) => {
   )
 }
 
-export default Card
+export default Card;
+
+
+//Prop type checking
+Card.propTypes ={
+  title : PropType.string,
+  body : PropType.string,
+  value : PropType.string,
+  lead : PropType.string,
+
+}
