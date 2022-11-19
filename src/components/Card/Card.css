@@ -41,3 +41,12 @@ button{
     line-height: 40px;
     padding: 70px 0px 21px 0px;
 }
+
+
+@media(max-width: 375px){
+    .total-container{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

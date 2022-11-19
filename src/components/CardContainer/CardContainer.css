@@ -7,3 +7,9 @@
     justify-content: space-between;
     padding-bottom: 102px;
 }
+
+@media (max-width: 375px){
+    .package{
+        flex-direction: column;
+    }
+}

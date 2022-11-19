@@ -4,6 +4,7 @@
 
 }
 
+
 @media(max-width: 768px){
     .rating-container{
         flex-wrap: wrap;
