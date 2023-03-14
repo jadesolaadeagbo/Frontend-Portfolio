@@ -1,0 +1,37 @@
+section{
+    padding-top: 150px;
+    font-family: "GT Walsheim Pro";
+}
+
+.topic{
+    font-weight: 700;
+    font-size: 48px;
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.paragraph{
+    font-weight: 400;
+    font-size: 32px;
+    color: #A7A7A7;
+    text-align: center;
+    padding-top: 49px;
+}
+
+.stack{
+    padding-top: 100px;
+}
+
+.line1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.line2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}

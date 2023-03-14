@@ -1,0 +1,19 @@
+.projects-container{
+    padding-top: 150px;
+    font-family: "GT Walsheim Pro";
+}
+
+.projects-container h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.projects-container p{
+    font-weight: 400;
+    font-size: 32px;
+    color: #A7A7A7;
+    text-align: center;
+    padding-top: 49px;
+}
