@@ -11,18 +11,20 @@ import Technologies from "./components/Technologies/Technologies"
 
 const App = () => {
   return (
+      <div className='app-container'>
+            <Router>
+          <Navbar/>
+          <About/>
+          <Technologies/>
+          <Projects/>
+          <Routes>
 
-      <Router>
-        <Navbar/>
-        <About/>
-        <Technologies/>
-        <Projects/>
-        <Routes>
+            
+            
+          </Routes>
+        </Router>  
+      </div>
 
-          
-          
-        </Routes>
-      </Router>
   )
 }
 

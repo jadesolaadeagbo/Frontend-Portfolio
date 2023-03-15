@@ -3,17 +3,86 @@
     font-family: "GT Walsheim Pro";
 }
 
-.projects-container h1{
+.projects-container .heading{
     font-weight: 700;
     font-size: 48px;
     color: #CCCCCC;
     text-align: center;
 }
 
-.projects-container p{
+.projects-container .para{
     font-weight: 400;
     font-size: 32px;
     color: #A7A7A7;
     text-align: center;
     padding-top: 49px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    padding-top: 96px;
+    gap: 30px;
+}
+
+.card{
+    width: 30%;
+    height: 500px;
+    background: #363636;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+   
+}
+
+.theImage{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card .information{
+    padding-left: 28px;
+    padding-top: 28px;
+    padding-right: 28px;
+} 
+
+.title{
+    font-weight: 500;
+    font-size: 28px;
+    color: #CCCCCC;
+}
+
+.details{
+    font-weight: 300;
+    font-size: 18px;
+    color: #A7A7A7;
+    line-height: 26px;
+}
+
+.card a{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+ 
+.card .view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view .left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.view .right{
+    display: flex;
+    align-items: center;
+}
+
+.view{
+    padding-top: 20px;
 }
