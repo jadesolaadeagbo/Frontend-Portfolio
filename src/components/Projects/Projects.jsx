@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Projects.css"
-import first from "../../assets/1.png"
+import first from "../../assets/7.png"
 import second from "../../assets/2.png"
 import third from "../../assets/3.png"
 import fourth from "../../assets/4.png"
@@ -22,7 +22,7 @@ const data = [
   {
     image: second,
     title: "Frontend Bootcamp",
-    details:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, veniam! Explicabo quo sint ab repellat ducimus sunt error accusantium, praesentium porro natus, quis aut corrupti delectus, aliquid molestiae harum eius?",
+    details:"This website is designed to help individuals of all skill levels learn everything they need to know about frontend development, from basic HTML and CSS to advanced JavaScript frameworks with quality content",
     stack:"Tech stack: HTML, React, CSS",
     livePreview: "https://gumdrop-bay.vercel.app/",
     code: "https://github.com/jadesolaadeagbo/Bootstrap-project-repo"
@@ -30,7 +30,7 @@ const data = [
   },  {
     image: third,
     title: "Afriverse Project",
-    details:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, veniam! Explicabo quo sint ab repellat ducimus sunt error accusantium, praesentium porro natus, quis aut corrupti delectus, aliquid molestiae harum eius?",
+    details:"Afriverse is a community driven web3 education platform that incentivises learning and the upload of quality content by rewarding learners with tokens for each course completed, and rewarding the content creators with tokens.",
     stack:"Tech stack: HTML, React, CSS",
     livePreview:"https://afriverse-project.vercel.app/",
     code:"https://github.com/jadesolaadeagbo/Afriverse-project"
@@ -46,7 +46,7 @@ const data = [
   },  {
     image: fifth,
     title: "Loruki Website",
-    details:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, veniam! Explicabo quo sint ab repellat ducimus sunt error accusantium, praesentium porro natus, quis aut corrupti delectus, aliquid molestiae harum eius?",
+    details:"Loruki is a fictional cloud hosting platform that was created for educational purposes. This platform is designed to simulate a real-world cloud hosting environment and allow users to learn and practice various cloud computing skills. ",
     stack:"Tech stack: HTML, React, CSS",
     livePreview:"https://loruki-murex.vercel.app/",
     code:"https://github.com/jadesolaadeagbo/Loruki--"
@@ -54,7 +54,7 @@ const data = [
   },  {
     image: sixth,
     title: "Concertz",
-    details:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, veniam! Explicabo quo sint ab repellat ducimus sunt error accusantium, praesentium porro natus, quis aut corrupti delectus, aliquid molestiae harum eius?",
+    details:" This website offers a user-friendly interface that allows you to search for and purchase tickets to your favorite concerts and events. This allows you to see what other concert-goers have to say about a particular show or venue. ",
     stack:"Tech stack: HTML, React, CSS",
     livePreview:"https://warm-gumdrop-f92185.netlify.app/",
     code:"https://github.com/jadesolaadeagbo/Front-end-project/"

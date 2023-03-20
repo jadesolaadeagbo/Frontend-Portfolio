@@ -1,6 +1,5 @@
 import {React, useState} from 'react'
 import "./App.css"
-import Navbar from "./components/Navbar/Navbar.jsx"
 import "./fonts/GTWalsheimPro/stylesheet.css";
 import "./fonts/PPMonumentExtended/stylesheet.css";
 import About from "./components/About/About"

@@ -1,5 +1,4 @@
 main{
-    /* margin: auto; */
     width: 100%;
     display: flex;
     padding-top: 40px;
@@ -10,11 +9,27 @@ main{
     color: white;
     font-size: 42px;
     width: 50%;
-    padding-bottom: 60px;
     font-family: "GT Walsheim Pro";
     text-transform:uppercase;
 }
-.image{
 
+@media(max-width: 768px){
+    .introduction{
+        font-size: 30px;
+    }
 
+    .main{
+        padding: 30px;
+        width: 90%;
+    }
+}
+
+@media(max-width: 414px){
+    .introduction{
+        width: 100%;
+        padding: 20px;
+    }
+    .image{
+        display: none;
+    }
 }
