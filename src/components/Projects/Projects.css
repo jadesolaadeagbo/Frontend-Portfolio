@@ -6,16 +6,18 @@
 .projects-container .heading{
     font-weight: 700;
     font-size: 48px;
-    color: #CCCCCC;
+    color: white;
+    text-transform: uppercase;
     text-align: center;
 }
 
 .projects-container .para{
     font-weight: 400;
     font-size: 32px;
-    color: #A7A7A7;
+    color: white;
     text-align: center;
-    padding-top: 49px;
+    text-transform: uppercase;
+    padding-top: 30px;
 }
 
 .cards{
@@ -30,7 +32,8 @@
 .card{
     width: 30%;
     height: 500px;
-    background: #363636;
+    background:rgba(0, 0, 0, 0.2);
+    /* background: #363636; */
     box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
    

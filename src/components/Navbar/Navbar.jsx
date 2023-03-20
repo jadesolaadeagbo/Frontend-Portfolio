@@ -4,13 +4,29 @@ import { NavLink } from 'react-router-dom'
 import Github from "../../assets/github.svg"
 import Twitter from "../../assets/twitter.svg"
 import Linkedin from "../../assets/linkedin.svg"
+import {HiOutlineLightBulb} from "react-icons/hi"
+import {HiLightBulb} from "react-icons/hi"
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const [darkMode, setDarkMode] = React.useState(true);
+
+  function toggleMode(){
+    setDarkMode(prevDarkMode =>!prevDarkMode);
+  }
+  
   let activeStyle= {
     fontWeight: '700'
   }
   return (
     <div className="navbar-container">
+    {
+    darkMode ? 
+    <HiOutlineLightBulb onClick={toggleMode} color='white' size="30px" style={{cursor:'pointer'}}/>
+    :
+    <HiLightBulb onClick={toggleMode} color='black' size="30px" style={{cursor:'pointer'}}/>
+
+    }
+      
       <p className='logo'>Jadesola</p>
       <div className='subnav'>
       <ul className='links'>

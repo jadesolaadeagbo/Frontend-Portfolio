@@ -1,13 +1,16 @@
 import React from 'react'
-import "./About.css"
-import MyPic from "../../assets/jade.JPG"
+import "./About.css";
+import Picture from "../../assets/codeing-removebg-preview.png"
+
 
 const About = () => {
   return (
     <main>
-     <p className='introduction'>Hi, I'm Jadesola Adeagbo, a frontend developer with 3 years of software development experience</p> 
-     <div className="image">
-      <img src={MyPic} width="249px" height="249px" className='image' /></div>
+      
+     <p className='introduction'>Hi, I am Jadesola Adeagbo, a frontend developer with 3 years of software development experience</p> 
+     <div>
+        <img src={Picture}  className='image' />
+        </div>
      
     </main>
 

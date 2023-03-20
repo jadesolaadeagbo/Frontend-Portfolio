@@ -1,21 +1,21 @@
 section{
-    padding-top: 150px;
+    padding-top: 100px;
     font-family: "GT Walsheim Pro";
+    text-transform: uppercase;
+    color: white;
 }
 
 .topic{
     font-weight: 700;
     font-size: 48px;
-    color: #CCCCCC;
     text-align: center;
 }
 
 .paragraph{
     font-weight: 400;
     font-size: 32px;
-    color: #A7A7A7;
     text-align: center;
-    padding-top: 49px;
+    padding-top: 30px;
 }
 
 .stack{

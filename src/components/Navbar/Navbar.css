@@ -40,3 +40,7 @@
     display: flex;
     gap:20px;
 }
+
+.darkMode{
+    cursor: pointer;
+}
